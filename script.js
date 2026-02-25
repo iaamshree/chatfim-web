@@ -1,14 +1,12 @@
 function sendMessage() {
-    var input = document.getElementById("messageInput");
-    var message = input.value;
+    let input = document.getElementById("messageInput");
+    let message = input.value;
 
-    if (message.trim() === "") {
-        return;
-    }
+    if (message.trim() === "") return;
 
-    var chatBox = document.getElementById("chatBox");
+    let chatBox = document.getElementById("chatBox");
 
-    var newMessage = document.createElement("p");
+    let newMessage = document.createElement("p");
     newMessage.textContent = message;
 
     chatBox.appendChild(newMessage);
