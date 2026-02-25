@@ -5,7 +5,7 @@ function sendMessage() {
     if (message.trim() === "") return;
 
     let chatBox = document.getElementById("chatBox"); //
-<__ lowercase b
+<__ all lowercase 
 
     let newMessage = document.createElement("p");
     newMessage.textContent = message;
