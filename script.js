@@ -7,6 +7,5 @@ function sendMessge() {
 document,getElementByID("message").value;
 
 document,getElementByID("output").innerTe
-xt = "you typed: " + msg;
-
+xt = "you typed: " + msg;
 }
