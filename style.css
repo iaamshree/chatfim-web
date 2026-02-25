@@ -15,8 +15,8 @@ input {
 button {
      pdding: 8px 15px;
      cursor: pointer;
-     background-color: #359db;
-     color: blue;
+     background-color: #3498db;
+     color: white;
      border: none;
 }
 
