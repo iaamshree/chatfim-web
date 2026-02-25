@@ -6,7 +6,12 @@ function sendMessage() {
         return;
     }
 
-    document.getElementById("output").innerText = message;
+    var output = document.getElementById("output");
+
+    var newMessage = document.createElement("p");
+    newMessage.innerText = message;
+
+    output.appendChild(newMessage);
 
     document.getElementById("message").value = "";
 }
