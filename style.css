@@ -13,7 +13,7 @@ input {
 }
 
 button {
-     pdding: 8px 15px;
+     padding: 8px 15px;
      cursor: pointer;
      background-color: #3498db;
      color: white;
