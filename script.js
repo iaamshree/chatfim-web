@@ -1,3 +1,5 @@
+alert("NEW VERSION LOADED");
+
 function sendMessage() {
     var message = document.getElementById("message").value;
 
