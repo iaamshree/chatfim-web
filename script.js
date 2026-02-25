@@ -12,4 +12,8 @@ function sendMessage() {
     chatBox.appendChild(newMessage);
 
     input.value = "";
+
+    // Auto-scroll
+    chatbox.scrollTop =
+chatbox.scrollHeight;
 }
