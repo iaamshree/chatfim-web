@@ -1,0 +1,25 @@
+Html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatFIM</title>
+    <link rel="stylesheet"
+href="style.css">
+</head>
+<body>
+    
+    <h1>welcome to ChatFIM</h1>
+    p>The future social platform by shreyash</p> 
+
+    <input type="text" id="message"
+placeholder="Type something...">
+    <button
+onclick="sendMessage()">Send</button>
+    
+    <p id="output"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>ss

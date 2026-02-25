@@ -1,0 +1,29 @@
+Css
+
+
+
+body {
+    text-align:center:
+    font-family:Arial;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color:#2c3e50;
+}
+input {
+    padding:8px;
+    width:200px;
+}
+
+button {
+     pdding: 8px 15px;
+     cursor: pointer;
+     background-color: #359db;
+     color: white;
+     border: none;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
