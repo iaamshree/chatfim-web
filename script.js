@@ -1,7 +1,3 @@
-
-
-
-
 function sendMessge() {
     let msg =
 document,getElementByID("message").value;
