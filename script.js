@@ -4,7 +4,7 @@ function sendMessage() {
 
     if (message.trim() === "") return;
 
-    let chatBox = document.getElementById("chatbox"); // <-- lowercase b matches HTML
+    let chatBox = document.getElementById("chatbox");
 
     let newMessage = document.createElement("p");
     newMessage.textContent = message;
@@ -13,7 +13,13 @@ function sendMessage() {
 
     input.value = "";
 
-    // Auto-scroll
-    chatbox.scrollTop =
-chatbox.scrollHeight;
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+// Send message when pressing Enter
+document.getElementById("messageInput")
+.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        sendMessage();
+    }
 }
